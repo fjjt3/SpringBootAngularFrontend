@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProductoListaComponent } from './producto-lista/producto-lista.component';
+import { AgregarProductoComponent } from './agregar-producto/agregar-producto.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProductoListaComponent
+    ProductoListaComponent,
+    AgregarProductoComponent
   ],
   imports: [
     BrowserModule,
