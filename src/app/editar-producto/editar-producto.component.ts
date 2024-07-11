@@ -29,4 +29,8 @@ export class EditarProductoComponent {
       }
     )
   }
+
+  OnSubmit(){
+    //editar 
+  }
 }
